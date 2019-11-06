@@ -1,0 +1,3031 @@
+fileFormatVersion: 2
+guid: 53480d09d0a81cf4ebe88e6cbfe6c266
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9217169742155963965
+    second: citynogrid_0
+  - first:
+      213: -7776624869236210021
+    second: citynogrid_1
+  - first:
+      213: -8110794759549424457
+    second: citynogrid_2
+  - first:
+      213: -7416102014819074000
+    second: citynogrid_3
+  - first:
+      213: 8421372338271415215
+    second: citynogrid_4
+  - first:
+      213: -4421715659403891523
+    second: citynogrid_5
+  - first:
+      213: -2509402202390353851
+    second: citynogrid_6
+  - first:
+      213: -3275858514987736315
+    second: citynogrid_7
+  - first:
+      213: 2028157617320387519
+    second: citynogrid_8
+  - first:
+      213: -2657997462776119398
+    second: citynogrid_9
+  - first:
+      213: 8721010212847977539
+    second: citynogrid_10
+  - first:
+      213: 6889002315546102877
+    second: citynogrid_11
+  - first:
+      213: 1110663737843104970
+    second: citynogrid_12
+  - first:
+      213: -1143243592055086440
+    second: citynogrid_13
+  - first:
+      213: -2444711634940920346
+    second: citynogrid_14
+  - first:
+      213: 1464608449289108994
+    second: citynogrid_15
+  - first:
+      213: -2500471286951104819
+    second: citynogrid_16
+  - first:
+      213: 5526505399569866175
+    second: citynogrid_17
+  - first:
+      213: -294680441182474779
+    second: citynogrid_18
+  - first:
+      213: -4806297926316749998
+    second: citynogrid_19
+  - first:
+      213: 1057563556009455456
+    second: citynogrid_20
+  - first:
+      213: 8927495476466252729
+    second: citynogrid_21
+  - first:
+      213: -7229300988101391968
+    second: citynogrid_22
+  - first:
+      213: -7003903544957935958
+    second: citynogrid_23
+  - first:
+      213: -3093465180146274294
+    second: citynogrid_24
+  - first:
+      213: 209095193622283377
+    second: citynogrid_25
+  - first:
+      213: 2637868417622214623
+    second: citynogrid_26
+  - first:
+      213: 3246352883949775661
+    second: citynogrid_27
+  - first:
+      213: -8163950772790918329
+    second: citynogrid_28
+  - first:
+      213: 4186168153382873667
+    second: citynogrid_29
+  - first:
+      213: -7661472715851815196
+    second: citynogrid_30
+  - first:
+      213: 8333550994601542954
+    second: citynogrid_31
+  - first:
+      213: -6410806606537388620
+    second: citynogrid_32
+  - first:
+      213: 6527835531342589424
+    second: citynogrid_33
+  - first:
+      213: 4734072579827648638
+    second: citynogrid_34
+  - first:
+      213: -4103517590066947729
+    second: citynogrid_35
+  - first:
+      213: -296259686581774541
+    second: citynogrid_36
+  - first:
+      213: -790551553110199440
+    second: citynogrid_37
+  - first:
+      213: -1849991460356394818
+    second: citynogrid_38
+  - first:
+      213: 6018202375254915716
+    second: citynogrid_39
+  - first:
+      213: 8837863778233517436
+    second: citynogrid_40
+  - first:
+      213: 8201619057894214622
+    second: citynogrid_41
+  - first:
+      213: 4037137438449043755
+    second: citynogrid_42
+  - first:
+      213: 7748437119816650575
+    second: citynogrid_43
+  - first:
+      213: 4840165451502565687
+    second: citynogrid_44
+  - first:
+      213: -4019476543762205442
+    second: citynogrid_45
+  - first:
+      213: -3749115763799352654
+    second: citynogrid_46
+  - first:
+      213: 610758352377775507
+    second: citynogrid_47
+  - first:
+      213: 7932448658308823466
+    second: citynogrid_48
+  - first:
+      213: -4136134768807130937
+    second: citynogrid_49
+  - first:
+      213: 7339191748118282741
+    second: citynogrid_50
+  - first:
+      213: -1846916681609965074
+    second: citynogrid_51
+  - first:
+      213: -7464379788812321111
+    second: citynogrid_52
+  - first:
+      213: 2135223205282440750
+    second: citynogrid_53
+  - first:
+      213: 5927103712407044067
+    second: citynogrid_54
+  - first:
+      213: -7669848273249597420
+    second: citynogrid_55
+  - first:
+      213: 1447931834319452657
+    second: citynogrid_56
+  - first:
+      213: 5264542549908423937
+    second: citynogrid_57
+  - first:
+      213: -8791580565774698628
+    second: citynogrid_58
+  - first:
+      213: 1116580009879516569
+    second: citynogrid_59
+  - first:
+      213: 2640582276868250145
+    second: citynogrid_60
+  - first:
+      213: -4824802704432956481
+    second: citynogrid_61
+  - first:
+      213: 3421708380116011864
+    second: citynogrid_62
+  - first:
+      213: 5334289046862867920
+    second: citynogrid_63
+  - first:
+      213: -4499706814547419894
+    second: citynogrid_64
+  - first:
+      213: 5185943811225592233
+    second: citynogrid_65
+  - first:
+      213: -1890271507794507596
+    second: citynogrid_66
+  - first:
+      213: -8433106150141370258
+    second: citynogrid_67
+  - first:
+      213: 5061773424334318180
+    second: citynogrid_68
+  - first:
+      213: 4464489922166867240
+    second: citynogrid_69
+  - first:
+      213: -1269988734971802260
+    second: citynogrid_70
+  - first:
+      213: 48411473532569306
+    second: citynogrid_71
+  - first:
+      213: -2811074037597458217
+    second: citynogrid_72
+  - first:
+      213: -8996837527633775919
+    second: citynogrid_73
+  - first:
+      213: -9133730969234016378
+    second: citynogrid_74
+  - first:
+      213: -1326140980821570161
+    second: citynogrid_75
+  - first:
+      213: -9121094104551294709
+    second: citynogrid_76
+  - first:
+      213: 7800457759435212990
+    second: citynogrid_77
+  - first:
+      213: 7034540271433503513
+    second: citynogrid_78
+  - first:
+      213: -717336132018560166
+    second: citynogrid_79
+  - first:
+      213: 6097248189464361439
+    second: citynogrid_80
+  - first:
+      213: -7038971758059361611
+    second: citynogrid_81
+  - first:
+      213: 8679016408206217592
+    second: citynogrid_82
+  - first:
+      213: 6214850378394407034
+    second: citynogrid_83
+  - first:
+      213: -100024193126852001
+    second: citynogrid_84
+  - first:
+      213: -8997226430926596060
+    second: citynogrid_85
+  - first:
+      213: 4671402276125353234
+    second: citynogrid_86
+  - first:
+      213: 7937095907602795448
+    second: citynogrid_87
+  - first:
+      213: 6386672156263387386
+    second: citynogrid_88
+  - first:
+      213: 2593529831257622705
+    second: citynogrid_89
+  - first:
+      213: -5190644312049714769
+    second: citynogrid_90
+  - first:
+      213: 8266826624614678420
+    second: citynogrid_91
+  - first:
+      213: -6046540078926148706
+    second: citynogrid_92
+  - first:
+      213: -6344681211037061831
+    second: citynogrid_93
+  - first:
+      213: 4188666196410013892
+    second: citynogrid_94
+  - first:
+      213: 4962226227351078112
+    second: citynogrid_95
+  - first:
+      213: 5032980920408690802
+    second: citynogrid_96
+  - first:
+      213: 2271995718919672505
+    second: citynogrid_97
+  - first:
+      213: 4171937071422037842
+    second: citynogrid_98
+  - first:
+      213: -5209402426796253902
+    second: citynogrid_99
+  - first:
+      213: -7937503772635756193
+    second: citynogrid_100
+  - first:
+      213: -8650223690910369940
+    second: citynogrid_101
+  - first:
+      213: 724162097276439052
+    second: citynogrid_102
+  - first:
+      213: 1672006442920525286
+    second: citynogrid_103
+  - first:
+      213: -6169521124858682584
+    second: citynogrid_104
+  - first:
+      213: -2893906060625813651
+    second: citynogrid_105
+  - first:
+      213: 5673587007812217787
+    second: citynogrid_106
+  - first:
+      213: -2892071608548205809
+    second: citynogrid_107
+  - first:
+      213: -90499829865368563
+    second: citynogrid_108
+  - first:
+      213: 5857715939757432946
+    second: citynogrid_109
+  - first:
+      213: 868524061007083076
+    second: citynogrid_110
+  - first:
+      213: -7584788808929829538
+    second: citynogrid_111
+  - first:
+      213: 7204761894456972652
+    second: citynogrid_112
+  - first:
+      213: -5837708917742543275
+    second: citynogrid_113
+  - first:
+      213: -1084531985956463137
+    second: citynogrid_114
+  - first:
+      213: 6187455608064824243
+    second: citynogrid_115
+  - first:
+      213: 6615009797091436121
+    second: citynogrid_116
+  - first:
+      213: -947381230909423999
+    second: citynogrid_117
+  - first:
+      213: -8778415444437806727
+    second: citynogrid_118
+  - first:
+      213: 3753877643114926434
+    second: citynogrid_119
+  - first:
+      213: 3183603134620901002
+    second: citynogrid_120
+  - first:
+      213: 2483171785778144714
+    second: citynogrid_121
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: citynogrid_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca199a7060989e4393fe1e9b701ad8e
+      internalID: 9217169742155963965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c170e45e6c791144fbac57d05d99f40f
+      internalID: -7776624869236210021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c270b4e7f9bf0442a2165c235ab4cbb
+      internalID: -8110794759549424457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c31257e82b3e80e42a0326fd1c3552e5
+      internalID: -7416102014819074000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_4
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf7e5cb3d340b1409f769908fab6ea8
+      internalID: 8421372338271415215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_5
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 273
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a41e9897b9bd2b469fadd2497397694
+      internalID: -4421715659403891523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbfbc58cae11b646b5d1ea0cee2e686
+      internalID: -2509402202390353851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac8a72c668fca284a9cea2d18a261ac9
+      internalID: -3275858514987736315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_8
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd22a19fe33d294dad55586f6e19a9f
+      internalID: 2028157617320387519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_9
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f237bfdaa422e4438ac0d2115f7ff2c
+      internalID: -2657997462776119398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_10
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8893d68efd068834c8a84d95d3668574
+      internalID: 8721010212847977539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_11
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab044350b4311446bfa8f3fe6a612f1
+      internalID: 6889002315546102877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_12
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8afb36e19d9e64088faec4edb435fb
+      internalID: 1110663737843104970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_13
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 552685c06eafb5f4383ef058ff01fd37
+      internalID: -1143243592055086440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_14
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8d706a30124954396cc4827902844c
+      internalID: -2444711634940920346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_15
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a7a672898399434aad4f67306130d3e
+      internalID: 1464608449289108994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_16
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d512538006a94247b2b695a47962eda
+      internalID: -2500471286951104819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_17
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fb3dba67e927c4dbdfa75a6fecb037
+      internalID: 5526505399569866175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_18
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5358d6517c61cee469544cc1eb66a3cd
+      internalID: -294680441182474779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_19
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c425b8bd27618439c24cb36b0b2b6f
+      internalID: -4806297926316749998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_20
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20e27cbb1aad104d86b38463f9bb1e9
+      internalID: 1057563556009455456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_21
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef521098916cc274db2c908cb557e14f
+      internalID: 8927495476466252729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_22
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 239
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cc90931e1ad9ef468ace7773cc95aba
+      internalID: -7229300988101391968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_23
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18b15f85bca5cd74896655b82a5ff61d
+      internalID: -7003903544957935958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_24
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d4c2d10048333438eeb7c133e1f5d7
+      internalID: -3093465180146274294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_25
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fc44009e01dde4db9a0deaa55672f8
+      internalID: 209095193622283377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_26
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451144b00adb9a04fb2f4c9804556c33
+      internalID: 2637868417622214623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_27
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04685c842a01c64c87324e0220ca6b2
+      internalID: 3246352883949775661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_28
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323a33a67ce430841813ba20b0278691
+      internalID: -8163950772790918329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_29
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35d16540bd3e55442bec6496baf239c5
+      internalID: 4186168153382873667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_30
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d818bc15fafc248a96a92739e015dd
+      internalID: -7661472715851815196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_31
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a994d2096ac18fa4d9dd453d517b8738
+      internalID: 8333550994601542954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_32
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4777e529bf6e98438721b8fe2d60d0d
+      internalID: -6410806606537388620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_33
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4464b306edfa0740a02b4c854581ba2
+      internalID: 6527835531342589424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_34
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 222
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ce031701f094d46a60812371d353f5
+      internalID: 4734072579827648638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_35
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99026666779618c4fa7392009806b780
+      internalID: -4103517590066947729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_36
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14950faea00ba314993391544e8826a4
+      internalID: -296259686581774541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_37
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eea7eb15a5e479c4d9dccfad01a76e21
+      internalID: -790551553110199440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_38
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb75a1e797792ed44a01f9376a307801
+      internalID: -1849991460356394818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_39
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3662adff03c8234980c753f56ff3491
+      internalID: 6018202375254915716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_40
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f32cff89e7cc844998633600eda73e
+      internalID: 8837863778233517436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_41
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f645da52acfae174a88a48cb00aa9799
+      internalID: 8201619057894214622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_42
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909216dbfe9c1e548a35315c7d1a38dc
+      internalID: 4037137438449043755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_43
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0dd4cb7226f72c48be348809069e1af
+      internalID: 7748437119816650575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_44
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e551b4892e359094cbb450faa5f39015
+      internalID: 4840165451502565687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_45
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0110ab93c4eb1dd4e9c5f073d2b9ee04
+      internalID: -4019476543762205442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_46
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 469cb205f47a05b4995660a2990c6010
+      internalID: -3749115763799352654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_47
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 205
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4103468bf997a3b4b8309eb1915fbf45
+      internalID: 610758352377775507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68dfc28816e34a748bcb1043edde9592
+      internalID: 7932448658308823466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_49
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840fc6220ebb5d34aacdb4ad4069de07
+      internalID: -4136134768807130937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_50
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cea7915e7f82b64b917972518281e45
+      internalID: 7339191748118282741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_51
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e94dbafa2848444af16b85cb430ef3
+      internalID: -1846916681609965074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_52
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0581fbeabf7ff408aad2741a00552f
+      internalID: -7464379788812321111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_53
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e3dd9f1987d6c4682b7ad535b6c47a
+      internalID: 2135223205282440750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_54
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a0489132e7b444d887f854fb3bec38
+      internalID: 5927103712407044067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_55
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a955a7a0c94b574592bc7d96192d7c0
+      internalID: -7669848273249597420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_56
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62de03b2b934eec488b3c16220cefef3
+      internalID: 1447931834319452657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_57
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d906f05b74915d149b188f088e829b4c
+      internalID: 5264542549908423937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_58
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc54f8eefeaf78a48aef7eb3106a4e2e
+      internalID: -8791580565774698628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_59
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d224a499bc2c84746bcab5a32e130234
+      internalID: 1116580009879516569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_60
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddbe4eb55ec5154b8d39ddd34be6417
+      internalID: 2640582276868250145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_61
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 188
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8fd8926191ddc479662e10130eaa61
+      internalID: -4824802704432956481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_62
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8737156d66d4ef49bbf85062278fc61
+      internalID: 3421708380116011864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_63
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbdc03e5ca4faa4b9fdab74cf6615f0
+      internalID: 5334289046862867920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_64
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa5c92c1c2342d46b8dc037739395b6
+      internalID: -4499706814547419894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_65
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56a4c5129ec14344970c7509babc73e
+      internalID: 5185943811225592233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_66
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15907d9c81137540bf50a9da822bce3
+      internalID: -1890271507794507596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_67
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3696ae4cf95264cb7d2b20108ade65
+      internalID: -8433106150141370258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_68
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2f805dd4f4cf5446b95465a32086974
+      internalID: 5061773424334318180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_69
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a39672573905449b926a2374e4277a
+      internalID: 4464489922166867240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_70
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deec0d67f78779746977e1039a327773
+      internalID: -1269988734971802260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_71
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566f3c2c1a013744b84a493bc1b3c7c2
+      internalID: 48411473532569306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_72
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d06234c2a052a4294b6c7f41279aab
+      internalID: -2811074037597458217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_73
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 171
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 301c9492d60b7bb4f9f9dfe18b4a1a3a
+      internalID: -8996837527633775919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_74
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc04e66654f716498f09a141e5a543b
+      internalID: -9133730969234016378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_75
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1486b768b51464083199e046e287dc
+      internalID: -1326140980821570161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_76
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97fd84476e66b948bb602130c6731ef
+      internalID: -9121094104551294709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_77
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d815e4d1be637654c88286c451e067b4
+      internalID: 7800457759435212990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_78
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f752247dcb06a44a807d49072cf5a7
+      internalID: 7034540271433503513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_79
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 568b4e4b310f9bb429d79078a43050e4
+      internalID: -717336132018560166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_80
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9771f148cd3ccce4ca2a244d6c77320b
+      internalID: 6097248189464361439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_81
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 154
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15293a72d84260c46a97fc4983a72455
+      internalID: -7038971758059361611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_82
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1cdb171b0cc5c4c9443ecc1e3a0d0c
+      internalID: 8679016408206217592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_83
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9275e4dbf6c8bed44b0f2bf9606f120c
+      internalID: 6214850378394407034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_84
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd4fe22dafbc71489d9423c7e583b3f
+      internalID: -100024193126852001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_85
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ec480f9884c1b448d14267289e8cab
+      internalID: -8997226430926596060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_86
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63c61cac7b2fcb4d87903ac0a49e958
+      internalID: 4671402276125353234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_87
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3ff5ea13a708e48b7667e26b595ef0
+      internalID: 7937095907602795448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_88
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d55bde06b86a33641b22342553c14cb0
+      internalID: 6386672156263387386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_89
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0c74228bc52d1940bc652a7b01b4a05
+      internalID: 2593529831257622705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_90
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe42e27dcf383a4181df24967709565
+      internalID: -5190644312049714769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_91
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e428a718e9b1ae44acf29cc3a841939
+      internalID: 8266826624614678420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_92
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31fb4f4ae3150ed478ed75732d3d1777
+      internalID: -6046540078926148706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_93
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 137
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a910d82b9b3f3a48a49346aaacefe59
+      internalID: -6344681211037061831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_94
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 394adc6bc35a938459b5bee9a81c56d8
+      internalID: 4188666196410013892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_95
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb512e42c4f6544a94da8ccb9ef03f1
+      internalID: 4962226227351078112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_96
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9348420258c2547baef28995537d3c
+      internalID: 5032980920408690802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_97
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e91b8eb56a39b4990b7bd57785f9e8
+      internalID: 2271995718919672505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_98
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757cb3802a0bd864b93beb4282ef8997
+      internalID: 4171937071422037842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_99
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83ae413625470644a8f4471a53b7dfb
+      internalID: -5209402426796253902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_100
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb82054e15a2cdf4ba3986aa38c9de4e
+      internalID: -7937503772635756193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_101
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6b9fde35dc5024183824d7f13cfe9e
+      internalID: -8650223690910369940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_102
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adcf71980937b240873903d14de2ac7
+      internalID: 724162097276439052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_103
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e44c61e3cd2ed4f96d2333263d4190
+      internalID: 1672006442920525286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_104
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790aa1563974547408477d872a4b86da
+      internalID: -6169521124858682584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_105
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 120
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a039ef98b2e704f83ac50bcf6da54d
+      internalID: -2893906060625813651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_106
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01b66f0b6c072448b896d523e01caa6
+      internalID: 5673587007812217787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_107
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b69c495da218945b072066896d914c
+      internalID: -2892071608548205809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_108
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a468a997fefc543a774563fa65a825
+      internalID: -90499829865368563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_109
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceef9c1a9886f294080a637877dd3df1
+      internalID: 5857715939757432946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_110
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0652c2bba315a8a4cbcfcea811fefbd8
+      internalID: 868524061007083076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_111
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a1b539826569d44b4e742393e9bf9d
+      internalID: -7584788808929829538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_112
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: decfc3f969f682c429f310436cab9ef3
+      internalID: 7204761894456972652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_113
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb397af327f00b48b4f993c4e91a4f7
+      internalID: -5837708917742543275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_114
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1920acef7448cb4db39c061685416c8
+      internalID: -1084531985956463137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_115
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d3dd342c34c724fade823c4b785250
+      internalID: 6187455608064824243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_116
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ace8811f14e324594be31bd341a300
+      internalID: 6615009797091436121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_117
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 145296a579d156d43b17b59c7a3f4e1d
+      internalID: -947381230909423999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_118
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88df10a4a6baf8e49868fd18b3abe735
+      internalID: -8778415444437806727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_119
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 103
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be308f5ccf8dc34fafd0a9e1b68005d
+      internalID: 3753877643114926434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_120
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 86
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4f37c6a29fed24898243335b2db7ca
+      internalID: 3183603134620901002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: citynogrid_121
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 86
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b51862e07f294d499600edfa9eaa9bd
+      internalID: 2483171785778144714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: bf7bf66748da4a34d8fa9ece16a11d0d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

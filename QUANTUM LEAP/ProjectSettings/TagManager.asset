@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - crater
+  - craterleft
+  - craterRight
+  - turn
+  - background
+  - deadzone
+  - Health
+  - Range
+  - wall
+  - XP
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - BackgroundNoise
+  - Enemy
+  - Middle
+  - Ground
+  - Background
+  - walls
+  - XP
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: background
+    uniqueID: 3215458447
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Top
+    uniqueID: 2460090327
+    locked: 0

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6caf17fd071a0e5408cfd3846cf8c6d6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rb: {instanceID: 0}
+  - impactEffect: {instanceID: 0}
+  - sPreFab: {fileID: 1396426682694621917, guid: cee571df6529c9e42905e2ddd1a84edb,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
