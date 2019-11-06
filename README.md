@@ -8,6 +8,7 @@ Here we post everything relevant to our project to keep us updated and informed 
 SCEHDULE PLANNER
 
 | Rank C Duel - Day 2                                 	| 11/7/19  	|            	|
+|-----------------------------------------------------	|----------	|------------	|
 | Rank C Duel - Day 3                                 	| 11/12/19 	|            	|
 | Rank C Duel - Day 4 (Final Day)                     	| 11/14/19 	|            	|
 | Team Project                                        	| 11/19/19 	|            	|
