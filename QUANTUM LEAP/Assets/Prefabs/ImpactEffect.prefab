@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4249511296127720}
   - component: {fileID: 212401564899748594}
   - component: {fileID: 95974694034881034}
+  - component: {fileID: 5090962903078485219}
   m_Layer: 0
   m_Name: ImpactEffect
   m_TagString: Untagged
@@ -69,7 +70,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 20
+  m_SortingOrder: 60
   m_Sprite: {fileID: 21300000, guid: 1cafae377352e4777bf22d10ddbf1be0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -100,3 +101,15 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5090962903078485219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473625048454486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3271435e0199d347b774a5f15e1f6df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

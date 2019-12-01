@@ -1,9 +1,10 @@
 using UnityEngine;
 using UnityEngine.Events;
+using System.Collections;
 
 public class CharacterController2D : MonoBehaviour
 {
-    [SerializeField] private float m_JumpForce = 400f;							// Amount of force added when the player jumps.
+    [SerializeField] public float m_JumpForce = 400f;							// Amount of force added when the player jumps.
 	[Range(0, 1)] [SerializeField] private float m_CrouchSpeed = .36f;			// Amount of maxSpeed applied to crouching movement. 1 = 100%
 	[Range(0, .3f)] [SerializeField] private float m_MovementSmoothing = .05f;	// How much to smooth out the movement
 	[SerializeField] private bool m_AirControl = false;							// Whether or not a player can steer while jumping;
@@ -16,7 +17,7 @@ public class CharacterController2D : MonoBehaviour
 	public bool m_Grounded;            // Whether or not the player is grounded.
 	const float k_CeilingRadius = .2f; // Radius of the overlap circle to determine if the player can stand up
 	private Rigidbody2D m_Rigidbody2D;
-	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
+	public bool m_FacingRight = true;  // For determining which way the player is currently facing.
 	private Vector3 m_Velocity = Vector3.zero;
 
 	//wall jumping
@@ -38,7 +39,20 @@ public class CharacterController2D : MonoBehaviour
 	public BoolEvent OnCrouchEvent;
 	private bool m_wasCrouching = false;
 
-	private void Awake()
+
+
+
+    private void OnEnable()
+    {
+        m_Rigidbody2D = GetComponent<Rigidbody2D>();
+
+        if (OnLandEvent == null)
+            OnLandEvent = new UnityEvent();
+
+        if (OnCrouchEvent == null)
+            OnCrouchEvent = new BoolEvent();
+    }
+    private void Awake()
 	{
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
 
@@ -114,6 +128,8 @@ public class CharacterController2D : MonoBehaviour
 				}
 			}
 
+
+			
 			// Move the character by finding the target velocity
 			Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
 			// And then smoothing it out and applying it to the character
@@ -138,6 +154,7 @@ public class CharacterController2D : MonoBehaviour
             // Add a vertical force to the player.
 			m_Grounded = false;
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+            //Debug.Log("Jump force: " + new Vector2(0f, m_JumpForce));
 		}
 
 		if(!m_Grounded){
@@ -155,7 +172,7 @@ public class CharacterController2D : MonoBehaviour
 	}
 
 	void HandleWallsSliding(){
-		m_Rigidbody2D.velocity = new Vector2(m_Rigidbody2D.velocity.x, -0.7f);
+		m_Rigidbody2D.velocity = new Vector2(m_Rigidbody2D.velocity.x, -1f);
 		wallSliding = true;
 
 		if(Input.GetButtonDown("Jump")){
@@ -176,5 +193,9 @@ public class CharacterController2D : MonoBehaviour
 		m_FacingRight = !m_FacingRight;
 
 		transform.Rotate(0f, 180f, 0f);
+        //Debug.Log("Facing Right: " + m_FacingRight);
 	}
+
+
+
 }

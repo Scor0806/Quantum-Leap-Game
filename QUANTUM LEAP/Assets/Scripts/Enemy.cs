@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Enemy : MonoBehaviour {
+    public enum enemyType {RANGED, MELEE};
+    public enemyType currentType;
     private PlayerStats player;
 	public int health = 100;
     //add animiation
@@ -12,30 +14,34 @@ public class Enemy : MonoBehaviour {
     public float knockback_count;
     public bool knockFromLeft;
     public bool knockFromRight;
-    public Transform dmgPosition;
 
 	public GameObject deathEffect;
-    public GameObject xp;
+    private GameObject DamagePopup;
 
     [SerializeField]
     private GameObject sPreFab;
+    private GameObject playerPosition;
+    private Transform playerLocation;
 
 
 
     private void Start()
     {
         myrigidbody2D = GetComponent<Rigidbody2D>();
-        dmgPosition = GetComponent<Transform>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerStats>();
+        playerLocation = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
     }
     public void TakeDamage (int damage)
 	{
         health -= damage;
+        dmgPopup.Create(transform.position, damage, false);
+        Vector2 direction = (playerLocation.transform.position - transform.position);
+        myrigidbody2D.AddForce(-direction * 20);
         if (health <= 0)
 		{
+            Score.scoreValue += 10;
             Instantiate(sPreFab, transform.position,transform.rotation);
-            
-			Die();
+            Die();
         }
         //Instantiate(xp, transform.position, Quaternion.identity);
 
@@ -76,10 +82,22 @@ public class Enemy : MonoBehaviour {
     }
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.tag == "Player")
+        if (other.tag == "Player" && currentType == enemyType.RANGED)
         {
             Vector3 direction = (this.transform.position - other.transform.position).normalized;
-            StartCoroutine(player.Knockback(0.02f, 300, direction));
+            playerPosition = GameObject.FindGameObjectWithTag("Player");
+            /*if (playerPosition.transform.position.x < transform.position.x)
+            {
+                playerPosition.GetComponent<Rigidbody2D>().AddForce(new Vector2(-500, 250));
+            }
+            else if (playerPosition.transform.position.x > transform.position.x)
+            {
+                playerPosition.GetComponent<Rigidbody2D>().AddForce(new Vector2(500, 250));
+
+            }*/
+            //playerPosition.GetComponent<PlayerStats>().TakeDamage(10);
+            StartCoroutine(playerPosition.GetComponent<PlayerStats>().Knockback(0.5f, 2, transform));
+            StartCoroutine(AttackCool());
         }
     }
 
@@ -88,4 +106,10 @@ public class Enemy : MonoBehaviour {
         return transform.position;
     }
 
+    public IEnumerator AttackCool()
+    {
+        GetComponent<DemoAI>().enabled = false;
+        yield return new WaitForSeconds(1.5f);
+        GetComponent<DemoAI>().enabled = true;
+    }
 }

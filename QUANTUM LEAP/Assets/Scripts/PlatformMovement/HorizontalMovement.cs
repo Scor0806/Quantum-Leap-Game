@@ -5,31 +5,30 @@ using UnityEngine;
 
 public class HorizontalMovement : MonoBehaviour
 {
-    public Vector3 pos1, pos2;
+    private Vector3 pos1, pos2;
     public float speed;
-    public Vector3 startpos;
-    public Vector3 velocity;
     Vector3 nextPos;
 
     [SerializeField]
-    private Transform childTransform;
+    private Transform startPosition;
 
     [SerializeField]
-    private Transform transformB;
+    private Transform destination;
 
     private bool moving;
     void Start()
     {
-        pos1 = childTransform.localPosition;
-        pos2 = transformB.localPosition;
-        nextPos = pos2;   
+        pos1 = startPosition.localPosition;
+        pos2 = destination.position;
+        nextPos = pos2;
+        //Debug.Log("Transform " + transformB.position);
     }
 
     // Update is called once per frame
     void Update()
     {
         Move();
-        if(Vector3.Distance(childTransform.localPosition, nextPos) <= 0.1)
+        if(Vector3.Distance(startPosition.localPosition, nextPos) <= 0.1)
         {
             ChangeDirection();
         }
@@ -37,7 +36,7 @@ public class HorizontalMovement : MonoBehaviour
 
     private void Move()
     {
-        childTransform.localPosition = Vector3.MoveTowards(childTransform.localPosition, nextPos, speed * Time.deltaTime);
+        startPosition.localPosition = Vector3.MoveTowards(startPosition.localPosition, nextPos, speed * Time.deltaTime);
     }
 
     private void ChangeDirection()
@@ -61,11 +60,5 @@ public class HorizontalMovement : MonoBehaviour
             collision.collider.transform.SetParent(null);
         }
     }
-    private void FixedUpdate()
-    {
-        if (moving)
-        {
-            transform.position += (velocity * Time.deltaTime);
-        }
-    }
+
 }

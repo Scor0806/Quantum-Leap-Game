@@ -12,6 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 908bc818f3e956e42af166acaff253ee
   - enabled: 1
+    path: Assets/Scenes/Tutorial_Scene.unity
+    guid: ef9164f3fec052249b4b1a6dd7809846
+  - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 736e59448c5fe2e41bdd979ae80686b8
+  - enabled: 1
+    path: Assets/Scenes/BossLVL.unity
+    guid: b85977549326a7e40b67b3064cd6ea9a
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: ec21ce328fc3440d5bf8a6ecb8488e02
   m_configObjects: {}

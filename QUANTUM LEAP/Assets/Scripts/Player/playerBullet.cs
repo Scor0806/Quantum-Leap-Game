@@ -13,12 +13,14 @@ public class playerBullet : MonoBehaviour
     private int maxDamage = 30;
     private int minDamage = 10;
 
+    public float lifetime;
 
 
 
     // Use this for initialization
     void Start()
     {
+        Destroy(gameObject,lifetime);
         rb.velocity = transform.right * speed;
         damage = UnityEngine.Random.Range(minDamage, maxDamage);
     }
@@ -32,7 +34,6 @@ public class playerBullet : MonoBehaviour
             target.TakeDamage(damage);
 
             Instantiate(impactEffect, transform.position, transform.rotation);
-            dmgPopup.Create(hitInfo.GetComponent<Enemy>().GetPosition(), damage, false);
             Destroy(gameObject);
         }
         else if (!hitInfo.CompareTag("Range"))

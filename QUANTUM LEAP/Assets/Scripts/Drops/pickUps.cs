@@ -6,11 +6,14 @@ using UnityEngine.Events;
 
 public class pickUps : MonoBehaviour
 {
-    public enum pickUpObj {XP, POWERUP, HP};
+    public enum pickUpObj {XP, POWERUP, HP, armor_upgrade_3};
     public pickUpObj currentObj;
-    public int xpValue;
+    public float xpValue;
     public int hpValue;
     public float speed;
+
+
+
 
     // public Rigidbody2D rb;
     // public float moveSpeed;
@@ -31,7 +34,9 @@ public class pickUps : MonoBehaviour
         {
             if(currentObj == pickUpObj.XP)
             {
-                PlayerStats.playerStats.xp += xpValue;
+                Debug.Log("Picked up xp");
+                SoundManagerScript.PlaySound("coinsound");
+                PlayerStats.playerStats.CurrentXP += xpValue;
                 Debug.Log(PlayerStats.playerStats.xp);
             }
             if(currentObj == pickUpObj.HP)
@@ -39,10 +44,17 @@ public class pickUps : MonoBehaviour
                 PlayerStats.playerStats.health += hpValue;
                 Debug.Log(PlayerStats.playerStats.xp);
             }
-            Destroy(gameObject);
+            if(currentObj == pickUpObj.armor_upgrade_3)
+            {
+                SoundManagerScript.PlaySound("suitup");
+                PlayerStats.playerStats.numberOfLives += 1;
+            }
+           Destroy(gameObject);
         }
+        
     }
- 
+
+
     // void Update(){
     //     transform.Translate(0,(Time.deltaTime * speed),0);
 

@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Mountain
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+    totalSpriteSurfaceArea: 8704
+    bindAsDefault: 1
+    storedHash:
+      serializedVersion: 2
+      Hash: d9ef40a1e049e63a7bd6435b05eace4b
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: -2520881351423829034, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: 169586563654155962, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: -6095743297909393804, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: -7600708208751213368, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: -3640269845806940038, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: 1438022602454602669, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: -6479583077359777927, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: 2027726513352216300, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: -4733611690281703656, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: -3885807252323873397, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: -4754908348521690220, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: 856422005447645960, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: 4698792333104365907, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: 6545938081042570852, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: 9006078529893721133, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: 2958398854318978642, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: 4814760257622344377, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: 7611322678424327901, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: 6786162785148405771, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: -8940025637340571576, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: 5619196197669459956, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: 6224664186704767117, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: 7803803244961874490, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: -5818485453492099322, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: 6429162144065410329, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: -5135679375380313298, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: 2616300234577422514, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: 6470852363578728324, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: 2774644368617027947, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: -3304426206383062804, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: -3960360443380109715, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: 4667495234737626269, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: 4023819049333940908, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  - {fileID: -3356241493871439020, guid: a206923bfeabc1a4d8e31eaefeea083f, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - mountain tiles_22
+  - mountain tiles_23
+  - mountain tiles_20
+  - mountain tiles_21
+  - mountain tiles_26
+  - mountain tiles_27
+  - mountain tiles_24
+  - mountain tiles_25
+  - mountain tiles_28
+  - mountain tiles_29
+  - mountain tiles_19
+  - mountain tiles_18
+  - mountain tiles_17
+  - mountain tiles_16
+  - mountain tiles_15
+  - mountain tiles_14
+  - mountain tiles_13
+  - mountain tiles_12
+  - mountain tiles_11
+  - mountain tiles_10
+  - mountain tiles_4
+  - mountain tiles_5
+  - mountain tiles_6
+  - mountain tiles_7
+  - mountain tiles_0
+  - mountain tiles_1
+  - mountain tiles_2
+  - mountain tiles_3
+  - mountain tiles_8
+  - mountain tiles_9
+  - mountain tiles_31
+  - mountain tiles_30
+  - mountain tiles_33
+  - mountain tiles_32
+  m_Tag: Mountain
+  m_IsVariant: 0

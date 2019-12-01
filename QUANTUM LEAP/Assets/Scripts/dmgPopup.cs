@@ -10,6 +10,7 @@ public class dmgPopup : MonoBehaviour
     private Color textColor;
     private Vector3 moveVector;
     private const float DISAPPEAR_TIMER_MAX = 0.7f;
+    
 
     private static int sortingOrder;
     private void Awake()
@@ -43,8 +44,8 @@ public class dmgPopup : MonoBehaviour
 
     public static dmgPopup Create(Vector3 position, int damageAmount, bool isCriticalHit)
     {
-        Debug.Log("Displaying text here: " + position);
-        Transform damagePopupTransform = Instantiate(GameAssets.i.DamagePopup, position, Quaternion.identity);
+        //Debug.Log("Displaying text here: " + position);
+        Transform damagePopupTransform = Instantiate(GameAssets.i.DamagePopup, position - new Vector3(-10,0,0), Quaternion.identity);
         dmgPopup damagePopup = damagePopupTransform.GetComponent<dmgPopup>();
         damagePopup.Setup(damageAmount, isCriticalHit);
 
@@ -53,7 +54,7 @@ public class dmgPopup : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(transform.position);
+        //Debug.Log(transform.position);
         transform.position += moveVector * Time.deltaTime/8;
         //moveVector -= moveVector * 4f * Time.deltaTime;
         if(disappearTimer > DISAPPEAR_TIMER_MAX * .5f)

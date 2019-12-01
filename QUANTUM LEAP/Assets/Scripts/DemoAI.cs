@@ -3,42 +3,29 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class DemoAI : MonoBehaviour{
-    public float speed = 20f;
+    private float speed = 3f;
     private Animator anim;
-    public float retreatDistance;
-    public float stoppingDistance;
-    private float timeBtwShots;
-    public float startTimeBtwShots;
-
-    public bool spotted = false;
+    private bool spotted = false;
     public float attackRange;
     public float longRange;
-    public Transform rangePoint;
     public LayerMask whatIsTarget;
     private float currentTarget;
 
+    public Transform firePoint;
     public GameObject projectile;
-    public Transform player, sightStart, sightEnd, firePoint;
+    private Transform player;
     private float MAX_DISTANCE = 5f;
 
     //alexis
     private Transform target;
-    public float distanceFromPlayer = 3; //can be changed in inspector
+    private float distanceFromPlayer = 3; //can be changed in inspector
     private Vector3 targetPos;
     private Vector3 thisPos;
 
 
     //moving only if in range
-    public float lookRadius = 5f;
     private float attackRate = 3f;
     private float nextAttack = 0;
-
-    // void OnDrawGizmosSelected(){
-    //     Gizmos color = Color.red;
-    //     Gizmos DrawWireSphere(transform.position, lookRadius);
-    // }
-
-
 
     // Start is called before the first frame update
     void Start(){
@@ -46,21 +33,8 @@ public class DemoAI : MonoBehaviour{
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
 
         anim = GetComponent<Animator>();
-        timeBtwShots = startTimeBtwShots;
+        anim.SetBool("Moving", false);
         //Debug.Log("Player is " + Mathf.Abs(this.transform.position.x - player.position.x) + " units away from enemy");
-    }
-
-    // Update is called once per frame
-    bool RayCasting(){
-        Debug.DrawLine(sightStart.position, sightEnd.position, Color.green);
-
-        spotted = Physics2D.Linecast(sightStart.position, sightEnd.position, 1 << LayerMask.NameToLayer("Player"));
-
-        return spotted;
-    }
-
-    void Behaviours() {
-        
     }
 
     private void Flip(){
@@ -73,38 +47,39 @@ public class DemoAI : MonoBehaviour{
     void Update(){
         //StartCoroutine(WaitAFew());
         anim.SetFloat("Speed", Mathf.Abs(speed));
-        currentTarget = Mathf.Abs(this.transform.position.x - player.position.x);
-        //if inside longrange then follow
-        if (Physics2D.OverlapCircle(sightStart.position, longRange, whatIsTarget))
+        if (GameObject.FindGameObjectWithTag("Player"))
         {
-            
-            StartCoroutine(WaitAFew());
-        }
-        //if inside attackrange then shoot
-        if (Physics2D.OverlapCircle(sightStart.position, longRange, whatIsTarget) &&
-            Physics2D.OverlapCircle(sightStart.position, attackRange, whatIsTarget))
-        {
-            Shoot();
-        }
+            currentTarget = Mathf.Abs(this.transform.position.x - player.position.x);
+            //if inside longrange then follow
+            if (Physics2D.OverlapCircle(transform.position, longRange, whatIsTarget))
+            {
 
+                StartCoroutine(WaitAFew());
+            }
+            //if inside attackrange then shoot
+            if (Physics2D.OverlapCircle(transform.position, longRange, whatIsTarget) &&
+                Physics2D.OverlapCircle(transform.position, attackRange, whatIsTarget))
+            {
+                Shoot();
+            }
         }
+    }
   IEnumerator WaitAFew()
     {
 
             //waiting so the enemy doesnt follow right away
             yield return new WaitForSeconds(0.3f);
-
+        if (GameObject.FindGameObjectWithTag("Player"))
+        {
+            anim.SetBool("Moving", true);
             //flips direction of the enemy to follow in another direction
             if (target.position.x > transform.position.x)
             {
-                transform.localScale = new Vector3(4f,4f,1f);
-                //transform.localScale = new Vector3(4f, 4f, 1f);
-                //Vector3 currRot = transform.eulerAngles;
-                //transform.localxscale = -1;
+                transform.localScale = new Vector3(4f, 4f, 1f);
             }
             else
             {
-                transform.localScale = new Vector3(-4f,4f,1f);
+                transform.localScale = new Vector3(-4f, 4f, 1f);
 
             }
             //move towards player 
@@ -112,20 +87,24 @@ public class DemoAI : MonoBehaviour{
             {
                 transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
             }
-        
+        }
     }
     
     IEnumerator ShootingCoolDown()
     {
         yield return new WaitForSeconds(3f);
-        anim.SetBool("Firing", false);
+    }
+
+    IEnumerator AnimationCoolDown()
+    {
+        yield return new WaitForSeconds(.25f);
     }
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.green;
-        Gizmos.DrawWireSphere(sightStart.position, longRange);
+        Gizmos.DrawWireSphere(transform.position, longRange);
         Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(sightStart.position, attackRange);
+        Gizmos.DrawWireSphere(transform.position, attackRange);
 
     }
 
@@ -135,16 +114,10 @@ public class DemoAI : MonoBehaviour{
         if (Time.time > nextAttack)
         {
             nextAttack = Time.time + attackRate;
-            anim.SetBool("Firing", true);
+            
             Instantiate(projectile, firePoint.position, firePoint.rotation);
+            StartCoroutine(AnimationCoolDown());
             StartCoroutine(ShootingCoolDown());
         }
-    }
-
-
-  
-    public void playerDetetion()
-    {
-        Collider2D enemiesToDamage = Physics2D.OverlapCircle(sightStart.position, longRange, whatIsTarget);
     }
 }

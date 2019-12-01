@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 2396098280911194957}
   - component: {fileID: 1183434741511448322}
   - component: {fileID: 3635581690876425193}
-  - component: {fileID: 6320874360954986815}
   - component: {fileID: 8722870236006575536}
   - component: {fileID: 5301130023107558038}
+  - component: {fileID: 3888688726207209549}
   m_Layer: 0
   m_Name: Blaster_Bullet
   m_TagString: Untagged
@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4722633937965309410}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.09, y: 0.89, z: -15.5390625}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.351, y: 1.351, z: 1.351}
   m_Children: []
   m_Father: {fileID: 0}
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 50
   m_Sprite: {fileID: 21300000, guid: 422b21fd0ea0f524d9c7c5e96b127dc0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -105,23 +105,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &6320874360954986815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4722633937965309410}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe6e653cc13a6c945a8cbefbd292b591, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 20
-  damage: 40
-  rb: {fileID: 3635581690876425193}
-  impactEffect: {fileID: 1473625048454486, guid: bebfde398ba0e0f4bb27373ce1c95f23,
-    type: 3}
 --- !u!95 &8722870236006575536
 Animator:
   serializedVersion: 3
@@ -157,3 +140,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.1875
+--- !u!114 &3888688726207209549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4722633937965309410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6caf17fd071a0e5408cfd3846cf8c6d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20
+  rb: {fileID: 3635581690876425193}
+  impactEffect: {fileID: 1473625048454486, guid: bebfde398ba0e0f4bb27373ce1c95f23,
+    type: 3}
