@@ -21,7 +21,7 @@ journey to different worlds unlike our own and at times seem to defy physics, pl
 will also uncover and learn more about the deep dark mysterious past of mankind’s
 hero which might end up being his demise.
 
-#Genre
+# Genre
 2-D Platformer Shooter
 
 # Platforms
