@@ -30,7 +30,8 @@ PC
 # Target Audience
 The targeted audience are from teens of age 13 to middle age adults. There will be blood and
 gore, mild language, and suggestive dark themes throughout the game.
-Storyline &amp; Characters
+
+# Storyline and Characters
 When earth falls under attack from advanced beings from another dimension, no military unit
 in the world can destroy them. ARES (Augmented Re-Enhanced Super Soldier), a
 damaged Spec-Ops soldier from the great wars, is brought back from the brink of death
